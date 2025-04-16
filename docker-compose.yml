@@ -27,7 +27,6 @@ services:
         environment:
             MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: chatapp
-            MYSQL_USER: root
             MYSQL_PASSWORD: root
     phpmyadmin:
         image: phpmyadmin/phpmyadmin
